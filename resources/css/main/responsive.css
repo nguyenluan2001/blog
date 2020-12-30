@@ -1,0 +1,34 @@
+@media screen and (min-width: 450px) and (max-width:960px) {
+    #wrapper #header .container .wp_menu span#menu_icon {
+        display: block;
+    }
+
+    #wrapper #header .container .wp_menu #menu {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 450px) {
+    #menu_respon {
+        display: none;
+    }
+}
+@media screen and (min-width: 700px) {
+    #menu_respon {
+        display: none;
+    }
+}
+@media screen and (max-width:620px) and (max-width: 700px)
+{
+    #wrapper #content .container #sidebar{
+        display: none;
+    }
+    #wrapper #content .container #recent_post{
+        width: 100%;
+    }
+    #wrapper #content .container #detail_post{
+        width: 100%;
+    }
+}

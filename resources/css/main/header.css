@@ -1,0 +1,103 @@
+#header {
+    background-color: #4bbad8;
+    width: 100%;
+
+}
+
+#logo {
+    width: 300px;
+
+
+}
+
+#logo a {
+    display: block;
+
+
+}
+#logo h1{
+    margin: 0;
+}
+#logo a img {
+    width: 100%;
+    height: auto;
+}
+
+#menu {
+    display: flex;
+
+}
+
+#menu .item {
+    display: block;
+    padding: 25px 20px;
+    line-height: 100%;
+}
+
+#menu .item:hover {
+    background-color: #05326b;
+}
+
+#menu .item>a {
+    color: white;
+
+}
+
+#menu .item:last-child {
+    position: relative;
+}
+
+#menu .item:last-child #info_user {
+    box-sizing: border-box;
+    position: absolute;
+    height: 76px;
+    bottom: -76px;
+    background-color: white;
+    left: 0px;
+    right: 0px;
+    display: none;
+
+}
+
+#menu .item:last-child #info_user a {
+    display: block;
+    height: 50%;
+    padding: 12px 0px;
+    box-sizing: border-box;
+
+
+}
+
+#menu .item:last-child #info_user a:hover {
+    background-color: #CCD1D1;
+
+}
+#menu .item:last-child #info_user a{
+    display: block;
+    text-align: center;
+}
+#menu_icon {
+    line-height: inherit;
+    font-size: 25px;
+    height: inherit;
+    box-sizing: border-box;
+    padding-top: 20px;
+    display: none;
+    cursor: pointer;
+
+}
+
+.wp_menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#wrapper #header .container #menu_respon #topic span:first-child{
+    cursor: pointer;
+}
+#wrapper #header .container #menu_respon #topic #category{
+    display: none;
+}
+#wrapper #header .container #menu_respon #topic #category .post_cat_item .post_sub_cat{
+    display: none;
+}

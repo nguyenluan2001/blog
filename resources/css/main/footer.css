@@ -1,0 +1,47 @@
+#footer{
+    background-color: #484D48;
+    padding: 20px 0px;
+}
+#footer .container
+{
+    display: flex;
+}
+#footer .container #info,#quick_link,#contact{
+    width: 33.33%;
+}
+#footer .container #info{
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+#footer .container #info p,i{
+    color: #EFF2EF;
+}
+#footer .container #quick_link a,h1{
+    color: #EFF2EF;
+
+}
+#footer .container #quick_link ul li{
+    margin-bottom: 5px;
+}
+#footer .container #quick_link ul li:hover a{
+    display: block;
+    padding-left: 10px;
+}
+#footer .container #contact input,textarea{
+    width: 100%;
+    background: #202420;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+#footer .container #contact input::placeholder,textarea::placeholder{
+    color: white;
+}
+#footer .container #contact input,textarea{
+    padding: 10px 0px 10px 5px;
+}
+#footer .container #info h1.logo{
+    margin-bottom: 0px;
+}
+#footer .container #info h1.logo a{
+    color: #4bbad8;
+}

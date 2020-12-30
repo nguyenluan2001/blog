@@ -1,0 +1,21 @@
+#body #wp_add_post form#form_add_post input:not([type='submit']){
+    width: 50%;
+    display: block;
+    height: 40px;
+    border: 1px solid 	#444444;
+    border-radius: 5px;
+}
+
+#body #wp_add_post form#form_add_post input[type='submit']
+{
+    display: block;
+    width: 8%;
+    margin-left: auto;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: 0;
+}
+#body #wp_add_post form#form_add_post input
+{
+    font-size: 17px;
+}

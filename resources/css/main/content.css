@@ -1,0 +1,132 @@
+#content{
+    width: 100%;
+    padding-bottom: 100px;
+}
+#content .container{
+    display: flex;
+}
+/* =====RECENT POST===== */
+#recent_post{
+    width: 70%;
+    margin-right: 10px;
+    box-sizing: border-box;
+
+}
+#recent_post .item
+{
+    display: flex;
+    background-color: white;
+    margin-bottom: 20px;
+    min-height: 200px;
+}
+#recent_post .item:hover{
+    box-shadow: 5px 5px 10px #aaaaaa;
+}
+#recent_post .item img{
+    transition: transform 0.5s;
+
+}
+#recent_post .item img:hover{
+    transform: scale(1.05,1.05);
+
+}
+#recent_post .item .wp_img{
+    
+    width: 200px;
+    height: inherit;
+    margin-right:10px;
+    overflow: hidden;
+
+    /* height: 100%; */
+}
+#recent_post .item .wp_img img{
+    width: 200px;
+   height: 200px;
+
+   
+}
+#recent_post .item .item_content{
+    width: 70%;
+    padding: 10px 0px;
+}
+#recent_post .item .item_content h2{
+    margin: 0px 0px;
+}
+#recent_post .item .item_content a.read_more{
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: white;
+    border: 1px solid greenyellow;
+    border-radius: 2px;
+    margin-left: 80%;
+}
+#recent_post .item .item_content a.read_more:hover{
+    background-color: #1BD632;
+    color: white;
+}
+#recent_post .item .item_content h2 a.title{
+    color:#393B39;
+}
+#recent_post .item .item_content .author,.date,i{
+    color: #454745;
+}
+#recent_post .item .item_content i{
+    color: #454745;
+
+}
+/* ======SIDEBAR===== */
+#sidebar{
+    width: 30%;
+    margin-top: 72px;
+}
+/* -----SEARCH---- */
+#sidebar #search{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    padding: 40px 10px 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    
+
+}
+
+#sidebar #search form input{
+    width: 97%;
+    height: 30px;
+}
+/* ----TOPIC----- */
+#sidebar #topic{
+    background-color: white;
+    padding: 10px 10px;
+}
+#sidebar #topic #list_topic a.item{
+    display: block;
+    width: 100%;
+    border-top: 1px solid black;
+    padding: 10px 0px;
+
+}
+#sidebar #topic #list_topic a.item p{
+    margin: 0;
+    color: black;
+}
+#sidebar #topic #list_topic a.item:hover p{
+    margin-left: 10px;
+    color: red;
+}
+#sidebar #topic #list_topic a.item:hover p i{
+    display: inline-block;
+    color: red;
+
+}
+i#back_to_top{
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    font-size: 30px;
+}
+#back_to_top:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+@media screen and (min-width: 450px) and (max-width:960px) {
+    a#menu_icon {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 450px) {
+    #menu_respon {
+        display: none;
+    }
+}

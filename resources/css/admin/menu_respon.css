@@ -1,0 +1,36 @@
+#menu_respon {
+    text-align: left;
+    display: none;
+}
+
+#menu_respon .item {
+    padding: 10px;
+}
+
+#menu_respon .item a {
+    color: white;
+}
+
+#menu_respon .item:hover {
+    background-color: #2471A3;
+}
+
+#menu_respon .item:last-child #info_user {
+    padding-left: 30px;
+    bottom: -37px;
+    right: 0px;
+    left: 0px;
+}
+
+#menu_respon .item:last-child #info_user a {
+    display: block;
+    padding: 10px 0px;
+
+
+}
+
+#menu_respon .item:last-child #info_user a:hover {
+    background-color: #AED6F1;
+    color: black;
+
+}

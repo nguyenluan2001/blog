@@ -1,0 +1,40 @@
+.font-black{
+    color: black;
+}
+.font-red{
+    color: red;
+}
+.font-white{
+    color: white;
+}
+.font-success{
+    color:#5cb85c
+}
+.font-danger{
+    color: #d9534f;
+}
+.bg-success{
+    background-color: #5cb85c;
+}
+.bg-danger{
+    background-color: #d9534f;
+
+}
+.d-block{
+    display: block;
+}
+.d-none{
+    display: none;
+}
+.pt-0{
+    padding-top: 0px;
+}
+.pb-0{
+    padding-bottom: 0px;
+}
+.mt-0{
+    margin-top: 0px;
+}
+.mb-0{
+    margin-bottom: 0px;
+}
