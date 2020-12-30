@@ -20,7 +20,8 @@ class Kernel extends HttpKernel
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
-        \App\Http\Middleware\AllowCors::class
+        \App\Http\Middleware\AllowCors::class,
+        \App\Http\Middleware\PreFlightResponse::class
     ];
 
     /**
@@ -63,6 +64,7 @@ class Kernel extends HttpKernel
         'signed' => \Illuminate\Routing\Middleware\ValidateSignature::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
-        'AllowCors'=>\App\Http\Middleware\AllowCors::class
+        'AllowCors'=>\App\Http\Middleware\AllowCors::class,
+        'PreFlightRespone'=>\App\Http\Middleware\PreFlightResponse::class
     ];
 }
