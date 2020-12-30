@@ -65,6 +65,6 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
         'AllowCors'=>\App\Http\Middleware\AllowCors::class,
-        'PreFlightRespone'=>\App\Http\Middleware\PreFlightResponse::class
+        'PreFlightResponse'=>\App\Http\Middleware\PreFlightResponse::class
     ];
 }
