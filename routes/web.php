@@ -27,7 +27,7 @@ Auth::routes();
 
 // Route::get('/home', 'HomeController@index')->name('home');
 Route::prefix('admin')->middleware(['auth','AllowCors','PreFlightResponse'])->name('admin.')->group(function () {
-    Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
+    Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
     Route::prefix('category')->name('category.')->group(function(){
         Route::get('/',[AdminCategoryController::class,'index'])->name('index');
         Route::post('store',[AdminCategoryController::class,'store'])->name('store');
