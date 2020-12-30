@@ -8,7 +8,7 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
     <title>Document</title>
     <link rel="stylesheet" href="{{url('resources/css/admin/style.css')}}">
-    <base href="{{config('app.url')}}">
+    <base href="https://thecodeholic.herokuapp.com/">
     <script src="{{asset('resources/js/jquery-3.5.1.min.js')}}"></script>
     <script src="public/js/app.js"></script>
 
